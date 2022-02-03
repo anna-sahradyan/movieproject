@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {fetchAllMovies} from '../response';
+import {fetchAllMovies} from '../redux/response';
 import {selectAllMovies} from "../store/allMovieSlice";
 
 const MovieList = () => {
