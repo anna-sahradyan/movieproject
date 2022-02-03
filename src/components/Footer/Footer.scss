@@ -1,0 +1,18 @@
+@import "../../common/colors";
+
+.footer {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-area: footer;
+  background: $secondary-color;
+  background-color: $font-primary;
+  overflow: hidden;
+   min-height: auto;
+}
+.movieDiv{
+  margin: auto;
+}
+.footer span{
+  margin: auto;
+}
