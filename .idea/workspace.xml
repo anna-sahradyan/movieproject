@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4bd8e9-9935-4596-a70a-58202a2ec43b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/MovieList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MovieList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +68,7 @@
       <workItem from="1643880030041" duration="3068000" />
       <workItem from="1643884917414" duration="674000" />
       <workItem from="1643885655152" duration="2789000" />
+      <workItem from="1644303404809" duration="3151000" />
     </task>
     <servers />
   </component>
