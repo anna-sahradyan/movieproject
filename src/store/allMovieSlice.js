@@ -1,27 +1,22 @@
 import {createSlice} from "@reduxjs/toolkit";
 
 const allMovieSlice = createSlice({
-    name: "allMovies",
-    initialState: {
-        allMovies: [],
-        loading: false,
-        hasErrors: false
-    },
-    reducers: {
+    name: "allMovies", initialState: {
+        allMovies: [], loading: false, hasErrors: false
+    }, reducers: {
         getAllMovies: state => {
             state.loading = true
-        },
-        getAllMoviesSuccess: (state, {payload}) => {
+        }, getAllMoviesSuccess: (state, {payload}) => {
             state.allMovies = payload;
             state.loading = false;
             state.hasErrors = true;
-        },
-        getAllMoviesFailure: state => {
+
+        }, getAllMoviesFailure: state => {
             state.loading = false
             state.hasErrors = true
         },
     }
 });
 export const {getAllMovies, getAllMoviesSuccess, getAllMoviesFailure} = allMovieSlice.actions;
-export const selectAllMovies = state=>state.allMovies.allMovies;
-export  default  allMovieSlice.reducer;
+export const selectAllMovies = state => state.allMovies.allMovies;
+export default allMovieSlice.reducer;

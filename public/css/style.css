@@ -46,7 +46,9 @@ html {
     display: grid;
     grid-area: main;
     grid-rows: 1fr;
-    min-width: 100%;
+    min-width: 1200px;
+    margin: auto;
+    /*border: 1px solid white;*/
     min-height: 100vh;
 
 }

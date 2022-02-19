@@ -3,10 +3,10 @@
 .header {
   position: relative;
   height: 70px;
-  background-color: $secondary-color;
+  background-color:$secondary-color;
   padding: 0 40px;
   align-items: center;
-justify-content: space-between;
+  justify-content: space-between;
   display: grid;
   grid-area: header;
 
@@ -16,16 +16,14 @@ justify-content: space-between;
   color: $font-primary;
   font-size: 20px;
   font-weight: 600;
+  margin-top: 10px;
 }
 
-.user-image, .user-image img {
+.user-image,.user-image img {
   width: 38px;
   height: 38px;
   position: absolute;
- left: 400px;
+  left: 600px;
   top: 10px;
   z-index: 1;
-
-
-
 }

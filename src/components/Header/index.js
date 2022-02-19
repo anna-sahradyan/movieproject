@@ -10,8 +10,7 @@ const Header = () => {
                 <div className={'logo'}>Movie App </div>
                 </NavLink>
                 <div className={'user-image'}>
-                    <img src='/images/userWoman.png' alt="user" />
-
+                    <img src='/images/userWoman.png' alt="user"/>
                 </div>
                 <CopyrightIcon/>
 
