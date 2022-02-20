@@ -2,13 +2,12 @@ import React from 'react';
 import MovieList from "../../containers/MovieList";
 
 const Home = () => {
-    return (<>
-            <div className='banner-img'>
+    return (
+        <>
+                <MovieList/>
 
-            </div>
-        <MovieList/>
-
-        </>);
+        </>
+    );
 };
 
 export default Home;

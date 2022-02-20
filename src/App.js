@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from "./components/Home";
+import Home from "./components/Home/index";
 import {Route, Routes} from "react-router-dom";
 import MovieDetails from "./components/MovieDetails";
 import Footer from "./components/Footer";
@@ -13,6 +13,7 @@ const App = () => {
         <>
             <div className={'wrapper'}>
             <Header/>
+
                 <div className={'main'}>
             <Routes>
                 <Route exact path='/' element={<Home/>}/>
