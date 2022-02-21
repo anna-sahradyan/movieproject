@@ -23,15 +23,15 @@ const allMovieSlice = createSlice({
     },
     extraReducers: {
         [fetchAsyncAllMovies.pending]: () => {
-            console.log('pending');
+
         },
         [fetchAsyncAllMovies.fulfilled]: (state, {payload}) => {
-            console.log('fulfilled');
+
             return {...state, allMovies: payload};
 
         },
         [fetchAsyncAllMovies.rejected]:() => {
-            console.log('rejected');
+
 
 
         },
