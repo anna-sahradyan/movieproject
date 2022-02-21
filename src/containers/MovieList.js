@@ -1,6 +1,5 @@
 import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {fetchAllMovies} from '../redux/response';
 import {selectAllMovies} from "../store/allMovieSlice";
 import MovieCard from '../components/MovieCard/MovieCard';
 import s from '../components/MovieCard/MovieCard.module.scss';
