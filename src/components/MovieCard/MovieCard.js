@@ -1,16 +1,16 @@
 import React from 'react';
 import s from './MovieCard.module.scss';
-
+import { motion } from "framer-motion"
 const MovieCard = (props) => {
 
     return (
 
-            <div className={s.card}>
-                <img src={props.img} alt=""className={s.poster}/>
-                <h5 className={s.title}>{props.title}</h5>
-                <h6 className={s.year}>{props.year}</h6>
+            <motion.div className={s.card} whileHover={{ scale: 1.03 }}  >
+                <img src={props.img} alt=""/>
+                <h5>{props.title}</h5>
+                <h6>{props.year}</h6>
 
-            </div>
+            </motion.div>
 
 
     );
