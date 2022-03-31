@@ -8,6 +8,7 @@ import axios from 'axios';
 import {API_KEY} from '../data/index'
 
 const MovieList = () => {
+
     const allMovies = useSelector(selectAllMovies);
     const allSeries = useSelector(selectAllSeries);
     const dispatch = useDispatch();
@@ -15,7 +16,6 @@ const MovieList = () => {
     React.useEffect(() => {
         dispatch(fetchAsyncAllMovies());
         dispatch(fetchAsyncAllSeries());
-
     }, [dispatch]);
 
 
@@ -30,6 +30,7 @@ const MovieList = () => {
 
                     {allSeries.Response === 'True' ? (allSeries.Search.map((item, index) => {
                         return <MovieCard key={`${item}_${index}`} data={item} img={item.Poster} title={item.Title}
+                                          imdbID={item.imdbID}
                                           year={item.Year}/>
                     })) : (<div><h1>{allMovies.Error}</h1></div>)}
 

@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1a4bd8e9-9935-4596-a70a-58202a2ec43b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MovieCard/MovieCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieCard/MovieCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieDetails/MovieDetails.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieDetails/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieDetail/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieDetail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieDetail/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/MovieList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MovieList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/allMovieSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/allMovieSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/allSeriesSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/allSeriesSlice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,10 @@
       <workItem from="1645247518312" duration="15628000" />
       <workItem from="1645275523057" duration="11149000" />
       <workItem from="1645337437067" duration="16151000" />
-      <workItem from="1645434874333" duration="14479000" />
+      <workItem from="1645434874333" duration="20003000" />
+      <workItem from="1645517800843" duration="4084000" />
+      <workItem from="1645553783660" duration="111000" />
+      <workItem from="1648739326542" duration="10652000" />
     </task>
     <servers />
   </component>

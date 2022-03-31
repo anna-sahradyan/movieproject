@@ -15,7 +15,7 @@ const App = () => {
             <Header/>
                 <div className={'main'}>
             <Routes>
-                <Route exact path='/' element={<Home/>}/>
+                <Route path='/' element={<Home/>}/>
                 <Route path={'/movie/:imdbID'} element={<MovieDetails/>}/>
                 <Route path={'*'} element={<ErrorPage/>}/>
             </Routes>
