@@ -15,10 +15,15 @@ const Header = () => {
     const dispatch = useDispatch();
     const submitHandler = (e) => {
         e.preventDefault();
-        if (inputValue === "") return;
-        dispatch(fetchAsyncAllMovies(inputValue));
-        dispatch(fetchAsyncAllSeries(inputValue));
-        setInputValue("")
+        if (inputValue === ""){
+            return false;
+        }
+        else{
+            dispatch(fetchAsyncAllMovies(inputValue));
+            dispatch(fetchAsyncAllSeries(inputValue));
+            setInputValue("");
+        }
+
     }
     return (<>
         <div className={'header'}>

@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a4bd8e9-9935-4596-a70a-58202a2ec43b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieCard/MovieCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieCard/MovieCard.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieDetail/MovieDetail.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieDetail/MovieDetail.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieDetail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieDetail/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/MovieList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MovieList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/allMovieSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/allMovieSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/allSeriesSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/allSeriesSlice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +79,7 @@
       <workItem from="1648739326542" duration="11321000" />
       <workItem from="1648832872327" duration="10490000" />
       <workItem from="1648895020674" duration="16859000" />
-      <workItem from="1649008447067" duration="8322000" />
+      <workItem from="1649008447067" duration="9094000" />
     </task>
     <servers />
   </component>
