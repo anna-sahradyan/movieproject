@@ -3,7 +3,7 @@
 .header {
   position: relative;
   height: 70px;
-  background-color:$secondary-color;
+  background-color: $secondary-color;
   padding: 0 40px;
   align-items: center;
   justify-content: space-between;
@@ -19,11 +19,18 @@
   margin-top: 10px;
 }
 
-.user-image,.user-image img {
+.user-image, .user-image img {
   width: 38px;
   height: 38px;
   position: absolute;
   left: 600px;
   top: 10px;
   z-index: 1;
+}
+
+.input {
+  position: absolute;
+  top: 15px;
+  left: 400px;
+
 }
